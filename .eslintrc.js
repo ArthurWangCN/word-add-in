@@ -3,6 +3,11 @@ module.exports = {
   env: {
     node: true
   },
+  globals: {
+    Word: true,
+    OfficeExtension: true,
+    Office: true
+  },
   extends: [
     'plugin:vue/essential',
     '@vue/standard'
